@@ -1,0 +1,14 @@
+.campo {
+    display: flex;
+    flex-direction: column;
+    row-gap: .5rem;
+}
+
+.campo input {
+    font-family: 'Raleway', sans-serif;
+    padding: .8rem;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}

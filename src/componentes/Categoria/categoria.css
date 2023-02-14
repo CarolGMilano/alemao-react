@@ -1,0 +1,19 @@
+.categoria {
+    text-align: center;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.categoria h3 {
+    display: inline-block;
+    border-bottom: 6px dotted;
+    margin-top: 0;
+}
+
+.categoria .cartoes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .8rem;
+    justify-content: center;
+    align-items: center;
+}

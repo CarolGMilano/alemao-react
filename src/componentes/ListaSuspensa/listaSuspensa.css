@@ -1,0 +1,14 @@
+.lista {
+  display: flex;
+  flex-direction: column;
+  row-gap: .5rem;
+}
+
+.lista select {
+  padding: .8rem;
+  font-family: 'Raleway', sans-serif;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}

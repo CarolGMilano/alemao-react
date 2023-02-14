@@ -1,0 +1,42 @@
+.cartao {
+  background-color: aliceblue;
+  position: relative;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 8px;
+  max-width: 200px;
+}
+
+.cartao svg {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+
+.cartao .cabecalho {
+  height: 50%;
+  margin: 0;
+  padding: 1rem;
+  border-radius: 8px;
+  box-sizing: border-box;
+  overflow-x: auto;
+}
+
+.cartao .cabecalho h4 {
+  margin: 0;
+  display: block;
+}
+
+.cartao .cabecalho h4 span {
+  color: white;
+  letter-spacing: .1rem;
+}
+
+.cartao .corpo {
+  height: 50%;
+  margin: 0;
+  padding: 1rem;
+}
+
+.cartao .corpo p {
+  margin: 0;
+}

@@ -1,0 +1,17 @@
+.botao {
+  width: 70%;
+  padding: 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #D35D6E;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  transition: .3s;
+}
+
+.botao:hover {
+  background-color: #a14654;
+}
