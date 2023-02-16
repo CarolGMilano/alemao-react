@@ -4,11 +4,25 @@
     row-gap: .5rem;
 }
 
+.campo label {
+    color: hsl(0, 0, 0);
+    font-size: 12px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
 .campo input {
     font-family: 'Raleway', sans-serif;
     padding: .8rem;
-    border-radius: 8px;
     border: none;
+    border-bottom: 1px solid hsl(0, 0%, 0%);
     outline: none;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 0%);
+}
+
+.campo input::placeholder {
+    color: hsla(0, 0%, 0%, 0.8);
+    font-family: 'Montserrat', sans-serif;
 }

@@ -9,15 +9,26 @@
     display: flex;
     flex-direction: column;
     row-gap: 1rem;
-    background-color: #F6F6F6;
     padding: 2rem;
-    border-radius: 8px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .formulario form h2 {
+    font-size: 30px;
     margin: 0;
-    font-size: 18px;
-    color: black;
+    color: hsl(0, 0%, 0%);
+    font-weight: 700;
 }
 
+.formulario form h3 {
+    margin: 0;
+    font-size: 16px;
+    color: hsla(0, 0%, 0%, 0.8);
+    font-weight: 400;
+}
+
+@media screen and (min-width: 800px) {
+    .formulario form {
+        padding: 0;
+        width: 60%;
+    }
+}

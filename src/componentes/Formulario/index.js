@@ -29,7 +29,8 @@ const Formulario = ({categorias, aoCadastrarPalavra}) => {
    return (
       <section className="formulario">
          <form onSubmit={aoSubmeter}>
-            <h2>Preencha os dados para adicionar uma nova palavra à sua lista</h2>
+            <h2>Crie um cartão</h2>
+            <h3>Preencha os dados para adicionar uma nova palavra à sua lista</h3>
 
             <Campo 
                obrigatorio

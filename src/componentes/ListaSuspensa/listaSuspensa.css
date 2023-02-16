@@ -4,11 +4,24 @@
   row-gap: .5rem;
 }
 
+.lista label {
+  color: hsl(0, 0, 0);
+  font-size: 12px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
 .lista select {
   padding: .8rem;
-  font-family: 'Raleway', sans-serif;
-  border: none;
+  font-family: 'Montserrat', sans-serif;
+  border: 1px solid black;
   outline: none;
-  border-radius: 8px;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 5px;
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 0%);
+}
+
+.lista option {
+  color: hsl(0, 0%, 0%);
 }

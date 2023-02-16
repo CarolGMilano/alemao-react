@@ -40,24 +40,30 @@ function App() {
     <div className="App">
       <div className="container">
         <Cabecalho />
-        
+
         <Formulario 
           categorias={categorias}
           aoCadastrarPalavra={card => aoNovoCartao(card)}
         />
       </div>
 
-      {categorias.map (categoria =>
-        <Categoria 
-          key={categoria.nome}
-          nome={categoria.nome}
-          artigo={categoria.artigo}
-          corPrimaria={categoria.corPrimaria}
-          corSecundaria={categoria.corSecundaria}
-          aoDeletar={aoDeletar}
-          cartoes={cartoes.filter(cartao => cartao.genero === categoria.nome)}
-        />
-      )}
+      <div className="listas">
+        <h3 className="listas__titulo">Minhas listas</h3>
+
+        <div className="listas__container">
+          {categorias.map (categoria =>
+              <Categoria 
+                key={categoria.nome}
+                nome={categoria.nome}
+                artigo={categoria.artigo}
+                corPrimaria={categoria.corPrimaria}
+                corSecundaria={categoria.corSecundaria}
+                aoDeletar={aoDeletar}
+                cartoes={cartoes.filter(cartao => cartao.genero === categoria.nome)}
+              />
+          )}
+        </div>
+      </div>
     </div>
   );
 }

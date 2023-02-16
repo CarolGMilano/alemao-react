@@ -1,5 +1,5 @@
 .cartao {
-  background-color: aliceblue;
+  background-color: hsl(0, 0%, 100%);
   position: relative;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 8px;
@@ -24,19 +24,24 @@
 .cartao .cabecalho h4 {
   margin: 0;
   display: block;
+  color: hsl(0, 0%, 0%);
+  font-weight: 400;
 }
 
 .cartao .cabecalho h4 span {
-  color: white;
+  color: rgb(255, 255, 255);
   letter-spacing: .1rem;
+  font-weight: 700;
 }
 
 .cartao .corpo {
   height: 50%;
   margin: 0;
   padding: 1rem;
+  overflow-x: auto;
 }
 
 .cartao .corpo p {
   margin: 0;
+  color: hsl(0, 0%, 0%);
 }

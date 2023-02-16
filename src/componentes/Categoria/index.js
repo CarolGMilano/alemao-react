@@ -7,7 +7,7 @@ const Categoria = ({ cartoes, nome, artigo, corSecundaria, aoDeletar, corPrimari
       className="categoria" 
       style={{backgroundColor: corSecundaria}}
     >
-      <h3 style={{ borderColor: corPrimaria }}>{nome}</h3>
+      <h3>{nome}<span style={{ color: corPrimaria }}>.</span></h3>
 
       <div className="cartoes">
         {cartoes.map(cartao => {

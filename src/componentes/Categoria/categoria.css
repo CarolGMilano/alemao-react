@@ -2,12 +2,20 @@
     text-align: center;
     margin-bottom: 1rem;
     padding: 1rem;
+    width: 100%;
 }
 
 .categoria h3 {
     display: inline-block;
-    border-bottom: 6px dotted;
     margin-top: 0;
+    color: hsl(0, 0%, 100%);
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+    text-shadow: #b8b6b6 1px 0 3px;
+}
+
+.categoria h3 span {
+    font-size: 30px;
 }
 
 .categoria .cartoes {
@@ -16,4 +24,11 @@
     gap: .8rem;
     justify-content: center;
     align-items: center;
+}
+@media screen and (min-width: 800px) {
+    .categoria {
+        margin: 0;
+        max-height: 80vh;
+        overflow-y: auto;
+    }
 }
