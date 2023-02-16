@@ -12,6 +12,10 @@
   right: -10px;
 }
 
+.cartao svg:hover {
+  cursor: pointer;
+}
+
 .cartao .cabecalho {
   height: 50%;
   margin: 0;
